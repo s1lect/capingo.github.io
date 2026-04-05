@@ -1,0 +1,25 @@
+# =========================================
+# Capingo robots.txt
+# =========================================
+
+User-agent: *
+Allow: /
+
+# Забороняємо технічні та службові файли
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /api/
+Disallow: /*?*
+Disallow: /*.json$
+
+# Дозволяємо важливі ресурси
+Allow: /icons/
+Allow: /images/
+Allow: /fonts/
+
+# Sitemap
+Sitemap: https://capingo.website/sitemap.xml
+
+# Host (необов’язково, але добре для деяких ботів)
+Host: https://capingo.website
